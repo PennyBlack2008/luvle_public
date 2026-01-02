@@ -22,22 +22,22 @@
 
 ```
 ┌─────────────────────────────────────────┐
-│  📱 모바일 청첩장        🖥️  관리자 대시보드  │
-│  (Next.js)            (Next.js + TS)  │
+│  📱 모바일 청첩장        🖥️  관리자 대시보드    │
+│  (Next.js)            (Next.js + TS)    │
 └──────────────┬──────────────────────────┘
                │ HTTPS / REST API
                ▼
 ┌──────────────────────────────────────────┐
-│        Nginx (Reverse Proxy)            │
-│     Blue-Green Deployment Switch        │
+│        Nginx (Reverse Proxy)             │
+│     Blue-Green Deployment Switch         │
 └──────────────┬───────────────────────────┘
                │
                ▼
 ┌──────────────────────────────────────────┐
-│       Spring Boot API Server            │
-│  - JWT 인증 (고객/관리자)                  │
-│  - JPA/Hibernate ORM                    │
-│  - AWS S3 파일 업로드                     │
+│       Spring Boot API Server             │
+│  - JWT 인증 (고객/관리자)                    │
+│  - JPA/Hibernate ORM                     │
+│  - AWS S3 파일 업로드                       │
 └──────────────┬───────────┬───────────────┘
                │           │
                ▼           ▼
