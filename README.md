@@ -5,6 +5,9 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.12-brightgreen)](https://spring.io/projects/spring-boot)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.1.6-blue)](https://www.typescriptlang.org/)
 
+## 샘플 청첩장
+https://mcard.luvle.kr/1
+
 ## 프로젝트 소개
 
 디자이너가 예비 신랑/신부의 모바일 웨딩 청첩장을 제작하고 운영할 수 있는 풀스택 시스템입니다.
