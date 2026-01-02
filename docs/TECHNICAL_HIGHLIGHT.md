@@ -207,37 +207,7 @@ axiosInstance.interceptors.response.use(
 
 ---
 
-## 3. 성능 최적화
-
-### 이미지 품질 레벨 관리
-
-용도에 따라 이미지 품질을 차등 적용했습니다.
-
-- 커버 이미지: 100%
-- 갤러리 썸네일: 50%
-- 갤러리 원본: 75%
-
-```javascript
-const s3Params = {
-  Bucket: 'bucket-name',
-  Key: filename,
-  Body: buffer,
-  CacheControl: 'max-age=300'  // 5분 캐싱
-};
-```
-
-### 데이터베이스 인덱싱
-
-주요 쿼리에 인덱스를 적용했습니다.
-
-```sql
-CREATE INDEX idx_config_id ON guest_list_log(wedding_invitation_config_id);
-CREATE INDEX idx_wedding_date ON wedding_invitation_config(wedding_date);
-```
-
----
-
-## 4. DevOps
+## 3. DevOps
 
 ### 환경별 Docker Compose
 
