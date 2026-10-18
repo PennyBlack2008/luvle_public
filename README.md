@@ -5,6 +5,10 @@
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-2.7.12-brightgreen)](https://spring.io/projects/spring-boot)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.1.6-blue)](https://www.typescriptlang.org/)
 
+
+
+<img width="1254" height="1254" alt="ChatGPT 이미지 2026년 10월 18일 오후 09_04_47-2" src="https://github.com/user-attachments/assets/ea38e6db-5bec-4f12-a4b4-2a2849c37d22" />
+
 ## 샘플 청첩장
 https://mcard.luvle.kr/1
 
